@@ -1,5 +1,5 @@
 # react-native-chat
-### 2. 리액트 네이티브를 통해 간단한 채팅을 만들게 된 이야
+### 2. 리액트 네이티브를 통해 간단한 채팅을 만들게 된 이야기
 
 42과정을 하면서 C -> CPP -> JAVA 공부를 하게 되었습니다.  
 왜냐하면 채팅 서버를 만들기 위해서 스프링을 사용하기려고 했기 때문입니다.  
@@ -37,7 +37,7 @@ html, css를 직접 다루지 않는 react-native를 하기로 했습니다.
        )
 ))}
 ```
-위와 같이 메시지라는 객체를 맵형태로 돌면서 style의 Right, Left를 통해 구분 할 수 있었습니다.
+위와 같이 메시지라는 객체를 맵형태로 돌면서 style의 Right, Left를 통해 구분 할 수 있었습니다.  
 이를 통해 아하 이런것들은 굳이 따로 저장 할 필요없이 프론트에서 처리하면 되겠구나 생각했습니다.
 
 **2. 백엔드 서버와 프론트엔드 서버는 코드의 어느 부분에 상호작용할까?**
@@ -64,7 +64,9 @@ API를 통해 해결 할 수 있어서 서버를 구성하지 않고도 애플�
 
 ### react-native + firebase로 1:1 단순 채팅 완성
 
-![](https://images.velog.io/images/42seouler/post/234f0df7-f2fb-4249-8780-f702ae52e622/nativefirebase.gif)
+<p align="center">
+<img src="https://images.velog.io/images/42seouler/post/234f0df7-f2fb-4249-8780-f702ae52e622/nativefirebase.gif">
+</p>
 
 js에 관해 단 1도 알지 못했지만 풍부한 인터넷 자료를 통해 단순하게 만들어 볼 수 있었습니다.
 이를 통해 프론트, 백엔드의 통신 방법, 어느 부분에서 처리 해줘야할 책임인지를 알 수 있었습니다.
